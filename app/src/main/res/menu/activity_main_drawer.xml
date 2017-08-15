@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_top">
+        <item
+            android:id="@+id/nav_places"
+            android:icon="@drawable/ic_place"
+            android:title="Places" />
+        <item
+            android:id="@+id/nav_sketch"
+            android:icon="@drawable/ic_sketch"
+            android:title="Normal map" />
+        <item
+            android:id="@+id/nav_satellite"
+            android:icon="@drawable/ic_satellite"
+            android:title="Satellite map" />
+
+    </group>
+    <group android:id="@+id/menu_bottom">
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="Send feedback" />
+
+    </group>
+
+</menu>
